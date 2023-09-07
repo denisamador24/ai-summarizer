@@ -6,7 +6,7 @@
   Note: The styles for this gradient grid background is heavily inspired by the creator of this amazing site (https://dub.sh) – all credits go to them! 
 */
 
-.main {
+.main-bg {
   width: 100vw;
   min-height: 100vh;
   position: fixed;
@@ -16,7 +16,7 @@
   pointer-events: none;
 }
 
-.main:before {
+.main-bg:before {
   background: radial-gradient(circle, rgba(2, 0, 36, 0) 0, #fafafa 100%);
   position: absolute;
   content: "";
@@ -26,7 +26,7 @@
   top: 0;
 }
 
-.main:after {
+.main-bg:after {
   content: "";
   background-image: url("/src/assets/grid.svg");
   z-index: 1;
@@ -64,7 +64,7 @@
 }
 
 @media screen and (max-width: 640px) {
-  .main {
+  .main-bg {
     padding: 0;
   }
 }
