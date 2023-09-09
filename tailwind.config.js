@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        satoshi: ["Poppins", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
         inter: ["Inter", "sans-serif"],
       }
     },
